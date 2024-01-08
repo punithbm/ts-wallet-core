@@ -47,30 +47,30 @@ export enum TRANSACTION_TYPE {
 }
 
 export interface ISigningInput {
-  /** SigningInput chainId */
-  chainId?: Uint8Array | null;
+    /** SigningInput chainId */
+    chainId?: Uint8Array | null;
 
-  /** SigningInput nonce */
-  nonce?: Uint8Array | null;
+    /** SigningInput nonce */
+    nonce?: Uint8Array | null;
 
-  /** SigningInput gasPrice */
-  gasPrice?: Uint8Array | null;
+    /** SigningInput gasPrice */
+    gasPrice?: Uint8Array | null;
 
-  /** SigningInput gasLimit */
-  gasLimit?: Uint8Array | null;
+    /** SigningInput gasLimit */
+    gasLimit?: Uint8Array | null;
 
-  /** SigningInput maxInclusionFeePerGas */
-  maxInclusionFeePerGas?: Uint8Array | null;
+    /** SigningInput maxInclusionFeePerGas */
+    maxInclusionFeePerGas?: Uint8Array | null;
 
-  /** SigningInput maxFeePerGas */
-  maxFeePerGas?: Uint8Array | null;
+    /** SigningInput maxFeePerGas */
+    maxFeePerGas?: Uint8Array | null;
 
-  /** SigningInput toAddress */
-  toAddress?: string | null;
+    /** SigningInput toAddress */
+    toAddress?: string | null;
 
-  /** SigningInput privateKey */
-  privateKey?: Uint8Array | null;
+    /** SigningInput privateKey */
+    privateKey?: Uint8Array | null;
 
-  /** SigningInput transaction */
-  transaction?: TW.Ethereum.Proto.ITransaction | null;
+    /** SigningInput transaction */
+    transaction?: TW.Ethereum.Proto.ITransaction | null;
 }
